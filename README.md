@@ -1,4 +1,4 @@
-# postcss-remtorem [![NPM version](https://badge.fury.io/js/postcss-remtorem.svg)](http://badge.fury.io/js/postcss-remtorem)
+# @jarodhayes/postcss-remtorem [![npm version](https://badge.fury.io/js/@jarodhayes%2Fpostcss-remtorem.svg)](https://badge.fury.io/js/@jarodhayes%2Fpostcss-remtorem)
 
 A plugin for [PostCSS](https://github.com/ai/postcss) that adjusts `rem` units to a match a non-standard base unit size.
 
