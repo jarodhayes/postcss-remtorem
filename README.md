@@ -7,7 +7,7 @@ Based on the [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem) plugin b
 ## Install
 
 ```shell
-$ npm install postcss postcss-remtorem --save-dev
+$ npm install @jarodhayes/postcss-remtorem --save-dev
 ```
 
 ## Why Does This Exist / Usage Scenario
