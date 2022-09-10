@@ -1,0 +1,45 @@
+{
+  "name": "postcss-remtorem",
+  "description": "A CSS post-processor that adjusts rem values",
+  "version": "6.0.0-beta",
+  "author": "jarodhayes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cuth/postcss-remtorem.git"
+  },
+  "bugs": "https://github.com/cuth/postcss-remtorem/issues",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jasmine-node spec"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "jasmine-node": "^3.0.0",
+    "lint-staged": "^10.0.8",
+    "postcss": "^8.4.16",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "css",
+    "rem",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}
