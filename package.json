@@ -1,14 +1,17 @@
 {
-  "name": "postcss-remtorem",
+  "name": "@jarodhayes/postcss-remtorem",
   "description": "A CSS post-processor that adjusts rem values",
   "version": "6.0.0-beta",
   "author": "jarodhayes",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cuth/postcss-remtorem.git"
+    "url": "git+ssh://git@github.com/jarodhayes/postcss-remtorem.git"
   },
-  "bugs": "https://github.com/cuth/postcss-remtorem/issues",
+  "homepage": "https://github.com/jarodhayes/postcss-remtorem#readme",
+  "bugs": {
+    "url": "https://github.com/jarodhayes/postcss-remtorem/issues"
+  },
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -41,5 +44,9 @@
   ],
   "peerDependencies": {
     "postcss": "^8.0.0"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
